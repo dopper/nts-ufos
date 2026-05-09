@@ -1,0 +1,19 @@
+# Bulk-downloaded data (~2.3 GB) — reproducible from manifest.txt + download.py.
+# Verify against SHA256SUMS-*.txt after running download.py.
+files/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.uv-cache/
+
+# Local notes / runbooks not intended for the public repo
+PROMOTE_TO_B.md
+
+# Logs
+*.log
+
+# OS
+.DS_Store

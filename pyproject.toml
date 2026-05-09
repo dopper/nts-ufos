@@ -1,0 +1,12 @@
+[project]
+name = "nts-ufos"
+version = "0.1.0"
+description = "Reproducible mirror of the U.S. Department of War UAP/UFO Release 01 (war.gov/ufo) — manifest, downloader, and integrity hashes."
+requires-python = ">=3.10"
+dependencies = [
+  # Chrome-impersonating HTTP client (needed to bypass war.gov's Akamai TLS fingerprint check)
+  "curl-cffi>=0.15.0",
+]
+
+[tool.uv]
+package = false
