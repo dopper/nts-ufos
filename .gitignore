@@ -17,3 +17,6 @@ PROMOTE_TO_B.md
 
 # OS
 .DS_Store
+
+# nanoc internal state
+.nanoc/
